@@ -1,12 +1,36 @@
 # BioScope
 
-Problem Statement: The Indian Ecosystem has grown exponentially in past few years but unfortunately on the ground level there is a lot of Illegal/Unfair anti-environment activities happening which are not met with proper outcomes due to lack of awareness and action.
+<h2>Overview</h2>
+<p>BioScope is a web application dedicated to empowering individuals to report environmental issues like illegal deforestation, animal trading, cruelty and poaching in a user-friendly and impactful way. BioScope aims to streamline the reporting process, raise awareness and accelerate effective interventions by authorites.</p>
 
-With BioScope we aim to give people a safe platform to share the concerning & illegal activities which they are witnessing directly to the authority but anonimously. 
-The anonimity gives people the security and the confidence to come forward against bullish industries/people harming our cities and environments.
+<h2>Key Features</h2>
+- <b>Simple and Intuitive UI:</b> Designed for ease of use, BioScope guides users through the reporting process with clear instructions and minimal-complexity UI.
 
-Using BioScope you can report concerning issues directly to the concerned authorities just by sharing it on the BioScope application.
+- <b>Real-time Alerts:</b> Alerts are immediately sent to relevant authorities upon receiving a report, ensuring prompt action and potential mitigation of harm.
 
-The user can submit the issue openly or anonimously as the user prefers.
+- <b>Location Tracking:</b> BioScope captures the location coordinates of reported incidents, providing valuable situational awareness to authorities.
+  
+- <b>Vonage API Integration:</b> Streamlined communication with authorities is facilitated through Vonage's robust API, ensuring timely and reliable notifications.
+  
+- <b>Ethical Considerations:</b> User privacy and anonymity are paramount in BioScope. Location data is collected, stored, and used responsibly, with strict adherence to ethical guidelines and user consent.
 
-On the user's end, the user has to be verified using strong proof of identity(such as aadhar no.) to authenticate the user properly and if a user is caught submitting wrong tips repetitevely or attempting to spam the application, they will be flagged and blocked off the application, having their aadhar they can be tracked easily in case of serious contentions are found.
+<h2>Getting Started</h2>
+<b>1. Prerequisites</b>
+- Node.js and npm (or yarn) installed on your system.
+- A Vonage API account and credentials (optional for real-time alerts).
+
+<b>2. Clone the Repository</b>
+<code>git clone https://github.com/InsiyaMithaiwala/BioScope.git</code>
+
+<b>3. Install Dependencies</b>
+<code>cd BioScope <br>
+npm install (or yarn install)</code>
+
+<b>4. Configuration</b>
+- Create a .env file in the root directory and enter your Vonage API credentials.
+- Customize other configuration settings as needed (e.g., database connection details).
+- 
+<b>5. Run the Development Server</b>
+<code>npm start (or yarn start)</code>
+
+BioScope will typically be accessible at http://localhost:3000.
