@@ -4,6 +4,7 @@
 <p>BioScope is a web application dedicated to empowering individuals to report environmental issues like illegal deforestation, animal trading, cruelty and poaching in a user-friendly and impactful way. BioScope aims to streamline the reporting process, raise awareness and accelerate effective interventions by authorites.</p>
 
 <h2>Key Features</h2>
+
 - <b>Simple and Intuitive UI:</b> Designed for ease of use, BioScope guides users through the reporting process with clear instructions and minimal-complexity UI.
 
 - <b>Real-time Alerts:</b> Alerts are immediately sent to relevant authorities upon receiving a report, ensuring prompt action and potential mitigation of harm.
@@ -23,8 +24,8 @@
 <code>git clone https://github.com/InsiyaMithaiwala/BioScope.git</code>
 
 <b>3. Install Dependencies</b><br>
-<code>cd BioScope <br>
-npm install (or yarn install)</code>
+<code>cd BioScope</code> <br>
+<code>npm install (or yarn install)</code>
 
 <b>4. Configuration</b>
 - Create a .env file in the root directory and enter your Vonage API credentials.
