@@ -23,8 +23,8 @@
 <code>git clone https://github.com/InsiyaMithaiwala/BioScope.git</code>
 
 <b>3. Install Dependencies</b><br>
-<code>cd BioScope <br>
-npm install (or yarn install)</code>
+<code>cd BioScope<code> <br>
+<code>npm install (or yarn install)</code>
 
 <b>4. Configuration</b>
 - Create a .env file in the root directory and enter your Vonage API credentials.
